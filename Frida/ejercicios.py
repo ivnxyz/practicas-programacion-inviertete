@@ -16,3 +16,22 @@ gravedad_marte=3.72
 peso=26.3
 masa=peso/gravedad_marte
 print(masa*gravedad_marte)
+#Ejercicio 5
+saludo="hola"
+print(saludo*100)
+#Ejercicio 6
+nombre="Diego"
+adjetivo="alto"
+verbo="alcanzar"
+print (nombre, "es", adjetivo, ",", "por eso logra", verbo, "el techo")
+#Ejercicio 7
+palabra="assdfghhjkl"
+print(palabra[4])
+#Ejercicio 8
+mensaje="hola Diego"
+print(mensaje.upper())
+#Ejercicio 9
+print(mensaje.lower())
+
+
+
