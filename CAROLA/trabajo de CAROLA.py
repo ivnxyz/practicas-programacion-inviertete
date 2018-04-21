@@ -8,3 +8,10 @@ n=1
 d=21
 diferencia= n-d
 print (diferencia)
+#propinas
+total=44.50
+propina=10
+t= total/10
+prpo= t+total
+print(prpo)
+
