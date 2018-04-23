@@ -11,24 +11,26 @@ print()
 #Dado un entero n, devuelve el valor absoluto de la diferencia entre n y 21.
 
 n=1
-valor=21
-diferencia= n-valor
-print("la diferencia entre", n,"y 21 es", diferencia)
+Valor=21
+valorAbsoluto=n-21
+print("El valor absoluto de la diferencia entre", n,"y 21 es", abs(valorAbsoluto))
 print()
 print()
 
 #3.-Calculadora de propinas
 #Crea un pequeño programa que calcule la propina.(propina 10%)
 precio=357
-propina=precio*.10
-total=102
-print("Por la cantidad de",precio,"la propina sera de",propina)
+propina=0.10
+total=precio*propina
+print("Por la cantidad de",precio,"la propina sera de",total)
 print()
 print()
 
 #4.-Calcula tu peso en otro planeta
 #Crea un programa que calcule tu peso en otro planeta.
 #Usa variables para contener tu peso, la gravedad de la tiera y la gravedad del planeta en el que quieres calcular tu peso.
+
+
 masa= 76
 gravedadDeLaTierra=9.78
 gravedadDeJupiter=22.88
