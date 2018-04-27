@@ -9,3 +9,10 @@ a=21
 diferencia= n-a
 print(diferencia)
 
+#Calculadora de propinas
+subtotal= 44.50
+propina= 10
+p= susbtotal/10
+total= subtotal+p
+print(total)
+
