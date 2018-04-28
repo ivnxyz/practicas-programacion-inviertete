@@ -1,3 +1,4 @@
+#numeros
 r= 1.1
 pi= 3.1416
 area= pi*r*r
@@ -6,9 +7,9 @@ print (area)
 n= 21-1
 print(n)
 
-subtotal= 44.50
+subtotal= 100
 propina= .10*44.50
-total= subtotal+propina
+total= float(subtotal+propina)
 print(total)
 
 gravedad_en_marte= 3.72
@@ -20,6 +21,7 @@ print(peso_en_marte)
 
 print("adrian"*100)
 
+#strings
 
 letras= ["a","b","c","d","e","f","g","h","i","j"]
 print (letras [7])
@@ -28,6 +30,7 @@ print("adrian".upper())
 
 print("WILLIAM".lower())
 
+hola = "Hello world"
 print("hello worl"[0])
 print("hello worl"[9])
 
@@ -44,7 +47,31 @@ lorem_ipsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pr
 print(str.count(lorem_ipsum,"a"))
 
 
-lista_de_compras = "Manzanas,zanahorias,cereal,leche,ramen"
+lista_de_compras= "Manzanas ,zanahorias ,cereal ,leche ,ramen"
+print(lista_de_compras.split())
+ 
+
+
+#impresion de pantalla
+
+
+nombre="adrian"
+apellidos="bautista villa"
+print(nombre, apellidos)
+
+manzanas, zanahorias, cereal, leche, ramen = "Manzanas", "zanahorias", "cereal", "leche", "ramen"
+print(manzanas, zanahorias, cereal, leche, ramen)
+
+programa="BFR"*100
+print(programa)
+
+
+
+
+
+
+
+
 
 
 
