@@ -22,3 +22,19 @@ print(letra2.upper())
 letra3= "HOLA COMO ESTAS"
 print(letra3.lower())
 
+#6. Obtén la primera y última letra de un String incluso si su tamaño cambia.
+str= "Hola_como_estassssssssssss"
+print(str[0],str[14])
+
+#7.Escribe un programa que contenga tu nombre y apellido y los imprima al revés con un espacio en medio
+nombre= "Juan Emmanuel"
+apellido= "Valencia"
+print(apellido ,nombre)
+
+#8. Forma la frase "Hola mundo!" con las siguientes Strings.Sólo usa las Strings disponibles.Agrega los espacios correctamente.
+str1 = "jfjdHvbcxyz"
+str2 = "ofjvcv!ldba"
+str3 = "mgbunfbd "
+print(str1[4],str2[0],str2[7],str2[10],"","",str3[0],str3[3],str3[4],str3[7],str2[0],str2[6])
+
+
