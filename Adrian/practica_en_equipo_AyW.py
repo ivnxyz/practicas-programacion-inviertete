@@ -44,8 +44,9 @@ lorem_ipsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pr
 print(str.count(lorem_ipsum,"a"))
 
 
-lista_de_compras = "Manzanas,zanahorias,cereal,leche,ramen"
-
+lista_de_compras= "Manzanas ,zanahorias ,cereal ,leche ,ramen"
+print(lista_de_compras)
+ 
 
 
 
