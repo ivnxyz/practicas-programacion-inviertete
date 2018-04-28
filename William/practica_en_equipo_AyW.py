@@ -1,13 +1,13 @@
 r= 1.1
 pi= 3.1416
-area= pi*r*r
+area= pi*(r*r)
 print (area)
 
 n= 21-1
 print(n)
 
 subtotal= 44.50
-propina= .10*44.50
+propina= .10*subtotal
 total= subtotal+propina
 print(total)
 

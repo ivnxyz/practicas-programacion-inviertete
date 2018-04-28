@@ -2,6 +2,7 @@ r=1.1
 pi=3.1416
 area=pi*(r*r)
 print(area)
+
 numero_de_entrada=50
 n=21
 numero_de_salida=numero_de_entrada-n
