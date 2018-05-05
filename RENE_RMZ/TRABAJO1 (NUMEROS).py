@@ -18,28 +18,28 @@ print()
 print()
 
 #3.-Calculadora de propinas
-#Crea un pequeño programa que calcule la propina.(propina 10%)
+#Crea un pequeño programa que calcule la propina.(propina 10%)    ###CORREGIDO##
 precio=357
-propina=0.10
-total=precio*propina
-print("Por la cantidad de",precio,"la propina sera de",total)
+propina=0.10*precio
+total=precio+propina
+print("Por la cantidad de",precio,"la propina sera de",propina,"y se pagara un total de",total)
 print()
 print()
 
 #4.-Calcula tu peso en otro planeta
 #Crea un programa que calcule tu peso en otro planeta.
-#Usa variables para contener tu peso, la gravedad de la tiera y la gravedad del planeta en el que quieres calcular tu peso.
+#Usa variables para contener tu peso, la gravedad de la tiera y la gravedad del planeta en el que quieres calcular tu peso. ###CORREGIDO##
 
-
-masa= 76
+peso= 70
 gravedadDeLaTierra=9.78
-gravedadDeJupiter=22.88
-PesoEnLaTierra=masa*gravedadDeLaTierra
-PesoEnJupiter=masa*gravedadDeJupiter
+gravedadDeJupiter=24.79
+Masa=peso/gravedadDeLaTierra
+PesoEnLaTierra=Masa*gravedadDeLaTierra
+PesoEnJupiter=Masa*gravedadDeJupiter
 print("El peso en la tierra es igual",PesoEnLaTierra)
 print()
 print("El peso en jupiter es igual a",PesoEnJupiter)
 print()
 print()
 
-#
+#w= m*g
