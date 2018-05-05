@@ -66,13 +66,64 @@ programa="BFR"*100
 print(programa)
 
 
-lista=["A","E","I","O",U"]
+lista=["A","E","I","O","U"] 
   
+print(lista[0],lista[1],lista[2],lista[3],lista[4])
+
+canciones= ["la chona","la cumbia de goku","el ansioso"]
+canciones.append("Never Gonna Give You Up")
+print (canciones)
+
+lista1=["tarea","proyecto","dictado"]
+lista2=[lista1, canciones]
+print (lista2)
+
+
+profes=["cucarachin","El jefe","Arnulfo"]
+
+profes=["cucarachin","El jefe","Arnulfo","isra"]
+print (profes)
+
+lista1.append(profes)
+
+
+#diccionarios
+
+
+valor="lealtad","humildad"
+antivalor="avaricia","egoismo"
+valores={"valor1":valor[0],"valor2":valor[1],"antivalor1":antivalor[0],"antivalor2":antivalor[1]}
+print (valores)
+
+#######
+
+nombre="Pedrito"
+edad="45"
+email="pedrito3434@gmail.com"
+
+usuario1={"nombre":nombre,"edad":edad,"email":email}
+usuarios={"usuario1":usuario1}
+print(usuarios)
 
 
 
+inventario={"bolsillo":["linterna","fresa"],"oro":500,"bolsa":["mechero","gema","daga"]}
+last=inventario["bolsa"]
+print(last.pop())
+
+carrito = {"bananas": 6,"manzanas": 0,"naranjas": 32,"peras": 15}
+
+precios = {"bananasP": 4,"appleP": 2,"naranjasP": 1.5,"perasP": 3}
+  
+total=(carrito["bananas"]*precios["bananasP"])+(carrito["manzanas"]*precios["appleP"])+(carrito["naranjas"]*precios["naranjasP"])+(carrito["peras"]*precios["perasP"])
+  
+print(total)
 
 
+nombre=input("dame tu nombre: ")
+edad=input("dame tu edad: ")
+datos=nombre+edad
+print(datos.split( ),",")
 
 
 
