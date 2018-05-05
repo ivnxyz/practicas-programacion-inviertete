@@ -22,3 +22,18 @@ gravedadEnMarte = 3.72
 pesoEnMarte = masa*gravedadEnMarte
 print(pesoEnMarte)
 
+
+
+#STRINGS
+#Multiplica una palabra. 
+palabra = "DIVA"
+palabras = palabra * 1000
+print(palabras)
+
+#Crea un mensaje con distintas variables.
+nombre = "Daniel"
+adjetivo = "inteligente"
+verbo = "ayuda"
+
+print(nombre, "es un chico muy", adjetivo, "y algunas veces", verbo, "a Dana en programación")
+
