@@ -23,6 +23,7 @@ gravedadEnMarte = 3.72
 pesoEnMarte = masa*gravedadEnMarte
 print(pesoEnMarte)
 
+<<<<<<< HEAD
 #STRINGS
 
 #1.Multiplica una palabra.
@@ -82,3 +83,20 @@ lista_de_compras3 = "cereal"
 lista_de_compras4 = "leche" 
 lista_de_compras5 = "ramen"
 print(lista_de_compras1, ",", lista_de_compras2, ",", lista_de_compras3, ",", lista_de_compras4, ",", lista_de_compras5)  
+=======
+
+
+#STRINGS
+#Multiplica una palabra. 
+palabra = "DIVA"
+palabras = palabra * 1000
+print(palabras)
+
+#Crea un mensaje con distintas variables.
+nombre = "Daniel"
+adjetivo = "inteligente"
+verbo = "ayuda"
+
+print(nombre, "es un chico muy", adjetivo, "y algunas veces", verbo, "a Dana en programación")
+
+>>>>>>> 29370e41451fbf866a84f460943a22e63de67422
