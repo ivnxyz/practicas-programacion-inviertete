@@ -53,6 +53,14 @@ nombres="Juan Emmanuel"
 print(apellido, " ", nombres)
 
 #12.Imprime la siguientes Strings separadas por comas.
+ramen = "Manzanas,", "zanahorias,", "cereal,", "leche,", "ramen"
+print(ramen)
 
+#13.Escribe un programa que cree una lista con 100 elementos.
+lo=["cd,"*100]
+print(lo)
 
+#14.Inserta todos los elementos de una lista en una String.
+lista = ["H","o","l","a",", ", "m","e"," ","ll","a","m","o"," ","J","u","a","n"," ","E","m","m","a","n","u","e","l"," ","V","a""l","e","n","c","i","a",".","Y"," ","t","e","n","g","o"," ","1","5"," ","a","ñ","o","s"]
+print(lista[0],lista[1],lista[2],lista[3],lista[4],lista[5],lista[6],lista[7],lista[8],lista[9],lista[10],lista[11],lista[12],lista[13],lista[14],lista[15],lista[16],lista[17],lista[18],lista[19],lista[20],lista[21],lista[22],lista[23],lista[24],lista[25],lista[26],lista[27],lista[28],lista[29],lista[30],lista[31],lista[32],lista[33],lista[34],lista[35],lista[36],lista[37],lista[38],lista[39],lista[40],lista[41],lista[42],lista[43],lista[44],lista[45],lista[46],lista[47],lista[48],lista[49])
 
