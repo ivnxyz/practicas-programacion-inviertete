@@ -99,13 +99,67 @@ listaCanciones.append("Never gonna give you up")
 #4.Crear una lista con lista dentro
 fRase1="of course "
 fRase2="i still "
-fRase3="love "
-fRase4="you"
-
-print(fRase1.split(","))
-frasecompleta=fRase1+fRase2+fRase3+fRase4
-print(frasecompleta)
-
+fRase3=["love "]
+fRase4=["you"]
+frase1y2=[fRase1,fRase2]
+frase1y2.append(fRase3)
+fRase3.append(fRase4)
+#print(frase1y2)
 
 
 #4. Crear una lista con elemmentos dentro
+comidaRica= ["tacos","garnachas","memelas","tlayudas"]
+#print(comidaRica)
+comidaRica.insert(3, "gorditas")
+comidaRica.insert(4, "flautas")
+#print(comidaRica)
+
+#5. Agrega una lista a otra lista con una funcion
+mundos=["Midgart", "Hel", "Asgard"]
+mun2=["Valhalla","Lyngvi", "Bifrost"]
+mundos.insert(3, mun2)
+#print(mundos)
+
+#D I C C I O N A R I O S
+#1. Accede a los valores de un diccionario
+lenguajes= "Python", "Java", "R", "Go", "Swift"
+shakespeare= "Hamlet", "Macbeth", "Romeo y Julieta", "La tempestad"
+diccionariosi= True
+dict= {"lenguajes": lenguajes , "Shakespeare": shakespeare, "estoEsnUnDiccionario": diccionariosi}
+#print(dict)
+
+#2. Diccionarios anidados
+#nombreUsuario=input("nombre:")
+#edadUsuario=input("edad:")
+#emailUsuario=input("email:")
+#datosDelUsuario={"Nombre":nombreUsuario, "Edad": edadUsuario, "Email": emailUsuario}
+#print(datosDelUsuario)
+#datos={"Usuario 1": datosDelUsuario}
+#print(datos)
+
+#3. Practica 1
+oro= 500
+bolsa=["mechero", "hilo", "gema"]
+mochila=["xilofono", "daga", "pieza de pan"]
+inventario={"oro":oro, "bolsa": bolsa, "mochila": mochila}
+#print("inventario=",inventario)
+inventario["bolsillo"]="fresa","linterna"
+#print(inventario)
+
+#4. Practica 4
+carrito = {"bananas": 6,"manzanas": 0,"naranjas": 32,"peras": 15}
+precios = {"bananas": 4,"manzanas": 2,"naranjas": 1.5,"peras": 3}
+total=carrito["bananas"]*precios["bananas"]+carrito["manzanas"]*precios["manzanas"]+carrito["naranjas"]*precios["naranjas"]+carrito["peras"]*precios["peras"]
+#print(total)
+
+#F U N C I O N  I N P U T
+#1. Practica 1
+programafav=input("Programa Favorito:")
+cancionfav=input("Cancion Favorita:")
+bebidafav=input("Bebida Favorita:")
+gustosfav=[programafav, cancionfav, bebidafav]
+#print(gustosfav)
+#print(",".join(gustosfav))
+
+#2. 
+                                 
