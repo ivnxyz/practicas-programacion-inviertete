@@ -16,3 +16,4 @@ precios = {
 precioCarrito=carrito["bananas"]*precios["bananas"]+carrito["manzanas"]*precios["manzanas"]+carrito["naranjas"]*precios["naranjas"]+carrito["peras"]*precios["peras"]
   
 print("El precio del carrito es $", precioCarrito)
+print("Hola")
