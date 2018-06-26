@@ -69,3 +69,4 @@ música=["Cherry Pie","Black In Black","Memorama","Luna"]
 música.append("Never Gonna Give You Up")
 print(música)
 
+#Crea una lista que contenga listas y Strings dentro.
