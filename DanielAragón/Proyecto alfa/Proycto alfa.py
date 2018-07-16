@@ -5,8 +5,10 @@ with open("usuarios.txt") as usuarios:
     usuarios = usuarios.readlines()
     diccionarioA = {}
     diccionarioB = {}
+    cartelera = {}
     lista=[]
     lista2=[]
+    edades=[]
     print("intento 0 de 3")
     u=input("Usuario: ")
     contador=1
@@ -39,8 +41,25 @@ while intentos < 3:
                 peliculas = peliculas.readlines()
                 peli=1
             for pelicula in peliculas:
+                cartelera[peli] = pelicula
                 print(peli,'.',pelicula)
                 peli+=1
+            cine=input("¿Qué pelicula quieres ver?")
+            boletos=int(input("¿Cuantos boletos quiere comprar?"))
+            contador = 0
+            while boletos > contador:
+                edades.append((int(input("Ingresa las edades: "))))
+                if edades[contador]<=12:
+                    edades[contador]=50
+                    contador+=1
+                else:
+                    edades[contador]=100
+                    contador+=1
+            i=0
+            for i in edades:
+               i=i+i
+            print(i)
+                
         else:
             intentos += 1
             print("Contraseña equivocada")
